@@ -1,0 +1,67 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Tue Oct 25 17:22:32 2016
+;; Desktop file format version 208
+;; Emacs version 25.1.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22543 30904 607851 500000) (desktop . "208") "CGuillemot@SLB-94YVLQ1" nil nil ((((font-backend uniscribe gdi) (font . "-outline-Courier New-normal-normal-normal-mono-17-*-*-*-c-*-iso8859-1") (border-width . 2) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#b2b2b2") (background-color . "#292b2e") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (alpha) (menu-bar-lines . 1) (tool-bar-lines . 0) (height . 48) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#e3dedd") (environment) (frameset--id . "EAED-EB07-BEAE-630F") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . "w32") (explicit-name) (tool-bar-position . top) (visibility . t) (width . 166) (left + -9) (top + -9)) ((min-height . 8) (min-width . 20) (min-height-ignore . 6) (min-width-ignore . 10) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 160) (min-pixel-width . 200) (min-pixel-height-ignore . 120) (min-pixel-width-ignore . 100) (min-pixel-height-safe . 40) (min-pixel-width-safe . 40)) hc (pixel-width . 1680) (pixel-height . 944) (total-width . 168) (total-height . 47) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 280) (pixel-height . 944) (total-width . 28) (total-height . 47) (normal-height . 1.0) (normal-width . 0.16666666666666663) (buffer "*SPEEDBAR*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 1) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 25) (start . 1))) (vc (last . t) (pixel-width . 1400) (pixel-height . 944) (total-width . 140) (total-height . 47) (normal-height . 1.0) (normal-width . 0.8333333333333334) (combination-limit) (leaf (pixel-width . 1400) (pixel-height . 660) (total-width . 140) (total-height . 33) (normal-height . 0.6991525423728814) (normal-width . 1.0) (buffer "*Compile-Log*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 1) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 63) (start . 1))) (leaf (last . t) (pixel-width . 1400) (pixel-height . 284) (total-width . 140) (total-height . 14) (normal-height . 0.3008474576271186) (normal-width . 1.0) (buffer "*shell*" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 126) (start . 126))))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history nil)
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "d:/Documents/test_pikuli/pikuli/pikuli/mouse_keyboard.py"
+  "mouse_keyboard.py"
+  'python-mode
+  '(linum-mode auto-complete-mode)
+  906
+  '(155 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-dos))
+  '((mark-ring (155 402 359 416 387 418 532 716 883 589 1093 968 1514 1324 1262 291))))
+
+(desktop-create-buffer 208
+  "d:/Documents/test_pikuli/pikuli/pikuli/settings.py"
+  "settings.py"
+  'python-mode
+  '(linum-mode auto-complete-mode)
+  167
+  '(167 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos))
+  '((mark-ring (167 167 167 167 167 167))))
+
+(desktop-create-buffer 208
+  "d:/Documents/pikuli/pikuli/mouse_keyboard.py"
+  "mouse_keyboard.py"
+  'python-mode
+  '(linum-mode auto-complete-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "d:/Documents/backup.py"
+  "backup.py"
+  'python-mode
+  '(linum-mode auto-complete-mode)
+  409
+  '(409 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos))
+  '((mark-ring nil)))
+
