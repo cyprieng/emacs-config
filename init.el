@@ -41,6 +41,8 @@
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this-word)
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this-word)
 
+(global-set-key (kbd "C-c C-q") 'comint-quit-subjob)
+
 (defun toggle-window-dedicated ()
   "Control whether or not Emacs is allowed to display another
 buffer in current window."
