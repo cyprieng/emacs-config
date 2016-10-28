@@ -7,6 +7,7 @@
 	evil-exit-visual-state
 	evil-force-normal-state
 	evil-forward-char
+	evil-goto-first-line
 	evil-mouse-drag-region
 	evil-next-line
 	evil-normal-state
@@ -15,4 +16,5 @@
 
 (setq mc/cmds-to-run-once
       '(
+	evil-insert
 	))
