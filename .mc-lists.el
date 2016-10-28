@@ -12,6 +12,8 @@
 	evil-next-line
 	evil-normal-state
 	evil-previous-line
+	evil-search-forward
+	mouse-set-region
 	))
 
 (setq mc/cmds-to-run-once
