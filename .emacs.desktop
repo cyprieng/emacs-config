@@ -2,12 +2,12 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Fri Oct 28 17:51:46 2016
+;; Created Mon Oct 31 00:04:10 2016
 ;; Desktop file format version 208
 ;; Emacs version 25.1.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (22547 29714 676297 300000) (desktop . "208") "CGuillemot@SLB-94YVLQ1" nil nil ((((font-backend uniscribe gdi) (font . "-outline-Courier New-normal-normal-normal-mono-17-*-*-*-c-*-iso8859-1") (border-width . 2) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#b2b2b2") (background-color . "#292b2e") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (alpha) (menu-bar-lines . 1) (tool-bar-lines . 0) (height . 48) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#e3dedd") (environment) (frameset--id . "EAED-EB07-BEAE-630F") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . "w32") (explicit-name) (tool-bar-position . top) (visibility . t) (width . 166) (left + -9) (top + -9)) ((min-height . 8) (min-width . 20) (min-height-ignore . 7) (min-width-ignore . 12) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 160) (min-pixel-width . 200) (min-pixel-height-ignore . 140) (min-pixel-width-ignore . 120) (min-pixel-height-safe . 40) (min-pixel-width-safe . 40)) vc (pixel-width . 1680) (pixel-height . 944) (total-width . 168) (total-height . 47) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (hc (pixel-width . 1680) (pixel-height . 650) (total-width . 168) (total-height . 32) (normal-height . 0.6857142857142857) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 299) (pixel-height . 650) (total-width . 30) (total-height . 32) (normal-height . 1.0) (normal-width . 0.18165249088699878) (buffer "*SPEEDBAR*" (selected) (hscroll . 10) (fringes 8 8 nil) (margins 1) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 25) (start . 1))) (leaf (last . t) (pixel-width . 1381) (pixel-height . 650) (total-width . 138) (total-height . 32) (normal-height . 1.0) (normal-width . 0.818347509113001) (buffer "dialog.py" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 7458) (start . 6536)))) (leaf (last . t) (pixel-width . 1680) (pixel-height . 294) (total-width . 168) (total-height . 14) (normal-height . 0.3142857142857143) (normal-width . 1.0) (buffer "*shell*" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 5) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 8053956) (start . 8053298)))))])
+(setq desktop-saved-frameset [frameset 1 (22550 31850 150840 170000) (desktop . "208") "cyprien@cyprien-debian" nil nil ((((font-backend xft x) (font . "-unknown-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#b2b2b2") (background-color . "#292b2e") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#e3dedd") (sticky) (environment) (frameset--id . "6DD1-9F9B-87FC-1CDC") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (height . 55) (width . 211) (left . 0) (top . 27)) ((min-height . 8) (min-width . 20) (min-height-ignore . 7) (min-width-ignore . 11) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 144) (min-pixel-width . 180) (min-pixel-height-ignore . 126) (min-pixel-width-ignore . 99) (min-pixel-height-safe . 36) (min-pixel-width-safe . 36)) vc (pixel-width . 1920) (pixel-height . 977) (total-width . 213) (total-height . 54) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (hc (pixel-width . 1920) (pixel-height . 684) (total-width . 213) (total-height . 38) (normal-height . 0.7001023541453428) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 324) (pixel-height . 684) (total-width . 36) (total-height . 38) (normal-height . 1.0) (normal-width . 0.16874999999999996) (buffer "*SPEEDBAR*" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 1) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 77) (start . 1))) (leaf (last . t) (pixel-width . 1596) (pixel-height . 684) (total-width . 177) (total-height . 38) (normal-height . 1.0) (normal-width . 0.83125) (buffer "main.js" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 2) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 469) (start . 1)))) (leaf (last . t) (pixel-width . 1920) (pixel-height . 293) (total-width . 213) (total-height . 16) (normal-height . 0.2998976458546571) (normal-width . 1.0) (buffer "*shell*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 1) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 6) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
@@ -18,184 +18,40 @@
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
-  "d:/Documents/test_pikuli/techlog_sikuli/base/dialog.py"
-  "dialog.py"
-  'python-mode
-  '(undo-tree-mode linum-mode flycheck-mode auto-complete-mode)
-  7458
-  '(7458 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos) (overwrite-mode))
-  '((mark-ring (650 650 651 7578 595 595 1904 2763 1556 1 1 2771 2771 2771 2771 7578))))
-
-(desktop-create-buffer 208
-  "d:/Documents/test_pikuli/test_suites_and_cases/foundation_techplot/logview.sikuli/logview.py"
-  "logview.py"
-  'python-mode
-  '(undo-tree-mode linum-mode flycheck-mode auto-complete-mode)
-  129954
-  '(129954 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos) (overwrite-mode))
-  '((mark-ring (128550 686 686 686 686 696 129663 129663 27878 22634 3084 129211 129211 129211 4795 4795))))
-
-(desktop-create-buffer 208
-  "d:/NOTBACKEDUP/Public/runTests.bat"
-  "runTests.bat"
-  'bat-mode
+  "/home/cyprien/Documents/projets/Cantik/src/cantik.js"
+  "cantik.js"
+  'js-mode
   '(undo-tree-mode linum-mode flycheck-mode)
-  879
-  '(879 nil)
+  245
+  '(245 nil)
   nil
   nil
-  '((buffer-file-coding-system . iso-latin-1-dos) (overwrite-mode))
-  '((mark-ring (872))))
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (245 245 245))))
 
 (desktop-create-buffer 208
-  "d:/Documents/test_pikuli/techlog_sikuli/zonation/__init__.py"
-  "__init__.py"
-  'python-mode
-  '(undo-tree-mode linum-mode flycheck-mode auto-complete-mode)
-  4688
-  '(4687 nil)
+  "/home/cyprien/Documents/projets/Cantik/src/main.js"
+  "main.js"
+  'js-mode
+  '(undo-tree-mode linum-mode flycheck-mode)
+  469
+  '(469 nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos) (overwrite-mode))
-  '((mark-ring (5475))))
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (470 395 238 385 469 470))))
 
 (desktop-create-buffer 208
-  "d:/Documents/test_pikuli/framework_tests/secondary_dock_windows/zonation_test.sikuli/zonation_test.py"
-  "zonation_test.py"
-  'python-mode
-  '(undo-tree-mode linum-mode flycheck-mode auto-complete-mode)
-  3109
-  '(3109 nil)
+  "/home/cyprien/Documents/projets/Cantik/static/index.html"
+  "index.html"
+  'html-mode
+  '(undo-tree-mode linum-mode flycheck-mode)
+  54
+  '(54 nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (653 653 653))))
-
-(desktop-create-buffer 208
-  "d:/Documents/test_pikuli/framework_tests/secondary_dock_windows/workspace_test.sikuli/workspace_test.py"
-  "workspace_test.py"
-  'python-mode
-  '(undo-tree-mode linum-mode flycheck-mode auto-complete-mode)
-  463
-  '(3567 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (3009 2852 575 575 575))))
-
-(desktop-create-buffer 208
-  "d:/Documents/test_pikuli/techlog_sikuli/workspace/__init__.py"
-  "__init__.py"
-  'python-mode
-  '(undo-tree-mode linum-mode flycheck-mode auto-complete-mode)
-  2635
-  '(2634 t)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos) (overwrite-mode))
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
   '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "d:/Documents/test_pikuli/pikuli/pikuli/region.py"
-  "region.py"
-  'python-mode
-  '(undo-tree-mode linum-mode flycheck-mode auto-complete-mode)
-  8778
-  '(7845 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos) (overwrite-mode))
-  '((mark-ring (8573 168 168))))
-
-(desktop-create-buffer 208
-  "d:/Documents/test_pikuli/pikuli/pikuli/__init__.py"
-  "__init__.py"
-  'python-mode
-  '(undo-tree-mode linum-mode flycheck-mode auto-complete-mode)
-  6548
-  '(6573 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos) (overwrite-mode))
-  '((mark-ring (6621 113 113 6621 6656))))
-
-(desktop-create-buffer 208
-  "d:/Documents/test_pikuli/pikuli/pikuli/location.py"
-  "location.py"
-  'python-mode
-  '(undo-tree-mode linum-mode flycheck-mode auto-complete-mode)
-  1458
-  '(1459 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos) (overwrite-mode))
-  '((mark-ring (6408 528 528 529))))
-
-(desktop-create-buffer 208
-  "d:/Documents/test_pikuli/pikuli/pikuli/mouse_keyboard.py"
-  "mouse_keyboard.py"
-  'python-mode
-  '(undo-tree-mode linum-mode flycheck-mode auto-complete-mode)
-  7730
-  '(7730 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-dos) (overwrite-mode))
-  '((mark-ring (7598 277 261 1 1))))
-
-(desktop-create-buffer 208
-  "d:/Documents/test_pikuli/framework_tests/primary_dock_windows/project_browser_test.sikuli/project_browser_test.py"
-  "project_browser_test.py"
-  'python-mode
-  '(undo-tree-mode linum-mode flycheck-mode auto-complete-mode)
-  3056
-  '(300 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "d:/NOTBACKEDUP/Public/testserver/testclient/databasewrapper.py"
-  "databasewrapper.py"
-  'python-mode
-  '(undo-tree-mode linum-mode flycheck-mode auto-complete-mode)
-  645
-  '(646 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos) (overwrite-mode))
-  '((mark-ring (885 885))))
-
-(desktop-create-buffer 208
-  "d:/NOTBACKEDUP/Public/testserver/testclient/send_results_to_database.py"
-  "send_results_to_database.py"
-  'python-mode
-  '(undo-tree-mode linum-mode flycheck-mode auto-complete-mode)
-  1744
-  '(1744 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos) (overwrite-mode))
-  '((mark-ring (1518 1424 1325 772 3822 3481 3185 2859 2686 2541 2468 1915 1804 1746 1699 1518))))
-
-(desktop-create-buffer 208
-  "d:/NOTBACKEDUP/Public/testserver/testclient/benchstep.py"
-  "benchstep.py"
-  'python-mode
-  '(undo-tree-mode linum-mode flycheck-mode auto-complete-mode)
-  1972
-  '(1972 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos) (overwrite-mode))
-  '((mark-ring (1972))))
 
 (desktop-create-buffer 208
   nil
@@ -205,7 +61,7 @@
   1
   '(1 nil)
   t
-  '(:history ((:url "http://www.google.fr/search?gbv=1&bih=&biw=&source=hp&hl=fr&ie=ISO-8859-1&btnG=Recherche+Google&q=arsenal" :title "arsenal - Recherche Google") (:point 236 :url "http://www.google.fr/?gfe_rd=cr&ei=4M4QWL-nPOyGiAXBr6mACA" :title "Google")))
+  '(:history ((:title "arsenal - Recherche Google" :url "http://www.google.fr/search?gbv=1&bih=&biw=&source=hp&hl=fr&ie=ISO-8859-1&btnG=Recherche+Google&q=arsenal") (:title "Google" :url "http://www.google.fr/?gfe_rd=cr&ei=4M4QWL-nPOyGiAXBr6mACA" :point 236)))
   '((buffer-file-coding-system . utf-8-dos) (overwrite-mode) (truncate-lines . t) (eww-history-position . 0))
   '((mark-ring nil)))
 
