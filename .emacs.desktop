@@ -2,56 +2,80 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Mon Oct 31 00:04:10 2016
+;; Created Mon Nov  7 17:41:20 2016
 ;; Desktop file format version 208
 ;; Emacs version 25.1.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (22550 31850 150840 170000) (desktop . "208") "cyprien@cyprien-debian" nil nil ((((font-backend xft x) (font . "-unknown-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#b2b2b2") (background-color . "#292b2e") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#e3dedd") (sticky) (environment) (frameset--id . "6DD1-9F9B-87FC-1CDC") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (height . 55) (width . 211) (left . 0) (top . 27)) ((min-height . 8) (min-width . 20) (min-height-ignore . 7) (min-width-ignore . 11) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 144) (min-pixel-width . 180) (min-pixel-height-ignore . 126) (min-pixel-width-ignore . 99) (min-pixel-height-safe . 36) (min-pixel-width-safe . 36)) vc (pixel-width . 1920) (pixel-height . 977) (total-width . 213) (total-height . 54) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (hc (pixel-width . 1920) (pixel-height . 684) (total-width . 213) (total-height . 38) (normal-height . 0.7001023541453428) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 324) (pixel-height . 684) (total-width . 36) (total-height . 38) (normal-height . 1.0) (normal-width . 0.16874999999999996) (buffer "*SPEEDBAR*" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 1) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 77) (start . 1))) (leaf (last . t) (pixel-width . 1596) (pixel-height . 684) (total-width . 177) (total-height . 38) (normal-height . 1.0) (normal-width . 0.83125) (buffer "main.js" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 2) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 469) (start . 1)))) (leaf (last . t) (pixel-width . 1920) (pixel-height . 293) (total-width . 213) (total-height . 16) (normal-height . 0.2998976458546571) (normal-width . 1.0) (buffer "*shell*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 1) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 6) (start . 1)))))])
+(setq desktop-saved-frameset [frameset 1 (22560 44720 70945 600000) (desktop . "208") "CGuillemot@SLB-94YVLQ1" nil nil ((((font-backend uniscribe gdi) (font . "-outline-Courier New-normal-normal-normal-mono-17-*-*-*-c-*-iso8859-1") (border-width . 2) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#b2b2b2") (background-color . "#292b2e") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (alpha) (menu-bar-lines . 1) (tool-bar-lines . 0) (height . 48) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#e3dedd") (environment) (frameset--id . "EAED-EB07-BEAE-630F") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . "w32") (explicit-name) (tool-bar-position . top) (visibility . t) (width . 166) (left + -9) (top + -9)) ((min-height . 8) (min-width . 20) (min-height-ignore . 7) (min-width-ignore . 12) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 160) (min-pixel-width . 200) (min-pixel-height-ignore . 140) (min-pixel-width-ignore . 120) (min-pixel-height-safe . 40) (min-pixel-width-safe . 40)) vc (pixel-width . 1680) (pixel-height . 944) (total-width . 168) (total-height . 47) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (hc (pixel-width . 1680) (pixel-height . 650) (total-width . 168) (total-height . 32) (normal-height . 0.689507494646681) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 310) (pixel-height . 650) (total-width . 31) (total-height . 32) (normal-height . 1.0) (normal-width . 0.18382352941176472) (buffer "*SPEEDBAR*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 1) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 109) (start . 1))) (leaf (last . t) (pixel-width . 1370) (pixel-height . 650) (total-width . 137) (total-height . 32) (normal-height . 1.0) (normal-width . 0.8161764705882353) (buffer "tv_mainwindow.py" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 3423) (start . 2815)))) (leaf (last . t) (pixel-width . 1680) (pixel-height . 294) (total-width . 168) (total-height . 14) (normal-height . 0.31049250535331907) (normal-width . 1.0) (buffer "*shell*" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 4) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 108771) (start . 108477)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
 (setq search-ring '("c" "cc"))
-(setq regexp-search-ring '("save the " "click_b" "save the shi" "propag" "wait(" "offset" "wheel" "get_ele" "get_element" "get_elemnt" "exists" "db_wrapper" "database" "json" "j" "test_impo"))
-(setq register-alist '((48 . "            except:\n                import pdb;pdb.set_trace()\n")))
-(setq file-name-history '("d:/NOTBACKEDUP/Public/runTests.bat" "d:/Documents/test_pikuli/ocean/workstep_by_dataset.sikuli/" "workstep_by_dataset.py" "d:/Documents/test_pikuli/" "d:/NOTBACKEDUP/Public/runTests.bat"))
+(setq regexp-search-ring '("import da" "import data" "import da" "warning" "new_se" "new" "file" "Data" "home" "import" "new se" "data" "new_sess" "Home" "open_home" "init_"))
+(setq register-alist '((48 . "    elt = introspection.find('.//*[@objectName=\"buttonData\"]')\n    introspection.element_region(elt).click()\n")))
+(setq file-name-history '("d:/NOTBACKEDUP/Public/runTests.bat" "d:/Documents/test_pikuli/framework_tests/platform_and_base/dashboard_mode.sikuli/dashboard_mode.py" "d:/NOTBACKEDUP/Public/runTests.bat" "d:/Documents/test_pikuli/ocean/workstep_by_dataset.sikuli/" "workstep_by_dataset.py" "d:/Documents/test_pikuli/" "d:/NOTBACKEDUP/Public/runTests.bat"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
-  "/home/cyprien/Documents/projets/Cantik/src/cantik.js"
-  "cantik.js"
-  'js-mode
-  '(undo-tree-mode linum-mode flycheck-mode)
-  245
-  '(245 nil)
+  "d:/Documents/test_pikuli/techlog_sikuli/base/tv_mainwindow.py"
+  "tv_mainwindow.py"
+  'python-mode
+  '(undo-tree-mode linum-mode flycheck-mode auto-complete-mode)
+  3423
+  '(3413 nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (245 245 245))))
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos) (overwrite-mode))
+  '((mark-ring (3502 1333 1334 1936 1936 4178 4178 4270 4270 4270 3472 1484 1478 1433 1347 1480))))
 
 (desktop-create-buffer 208
-  "/home/cyprien/Documents/projets/Cantik/src/main.js"
-  "main.js"
-  'js-mode
-  '(undo-tree-mode linum-mode flycheck-mode)
-  469
-  '(469 nil)
+  "d:/Documents/test_pikuli/techlog_sikuli/tools/__init__.py"
+  "__init__.py"
+  'python-mode
+  '(undo-tree-mode linum-mode flycheck-mode auto-complete-mode)
+  14544
+  '(14544 nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (470 395 238 385 469 470))))
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos) (overwrite-mode))
+  '((mark-ring (14398 772 772 773))))
 
 (desktop-create-buffer 208
-  "/home/cyprien/Documents/projets/Cantik/static/index.html"
-  "index.html"
-  'html-mode
-  '(undo-tree-mode linum-mode flycheck-mode)
-  54
-  '(54 nil)
+  "d:/Documents/test_pikuli/techlog_sikuli/sikuliTestCase/tvTestCase.py"
+  "tvTestCase.py"
+  'python-mode
+  '(undo-tree-mode linum-mode flycheck-mode auto-complete-mode)
+  70
+  '(70 nil)
   nil
   nil
-  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
-  '((mark-ring nil)))
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (70 70 524 524 435 126 141))))
+
+(desktop-create-buffer 208
+  "d:/Documents/test_pikuli/techlog_viewer/data_test.sikuli/data_test.py"
+  "data_test.py"
+  'python-mode
+  '(undo-tree-mode linum-mode flycheck-mode auto-complete-mode)
+  6437
+  '(6437 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos) (overwrite-mode))
+  '((mark-ring (675 512))))
+
+(desktop-create-buffer 208
+  "d:/Documents/test_pikuli/techlog_sikuli/sikuliTestCase/sikuliTestCase.py"
+  "sikuliTestCase.py"
+  'python-mode
+  '(undo-tree-mode linum-mode flycheck-mode auto-complete-mode)
+  1284
+  '(1284 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1285 1800 1801 245 1737 1737 556 5685 4511 4511 1744 1737 1216 1202 1215 1712))))
 
 (desktop-create-buffer 208
   nil
