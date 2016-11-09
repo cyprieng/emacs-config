@@ -2,90 +2,66 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Mon Nov  7 17:41:20 2016
+;; Created Wed Nov  9 17:36:12 2016
 ;; Desktop file format version 208
 ;; Emacs version 25.1.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (22560 44720 70945 600000) (desktop . "208") "CGuillemot@SLB-94YVLQ1" nil nil ((((font-backend uniscribe gdi) (font . "-outline-Courier New-normal-normal-normal-mono-17-*-*-*-c-*-iso8859-1") (border-width . 2) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#b2b2b2") (background-color . "#292b2e") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (alpha) (menu-bar-lines . 1) (tool-bar-lines . 0) (height . 48) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#e3dedd") (environment) (frameset--id . "EAED-EB07-BEAE-630F") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . "w32") (explicit-name) (tool-bar-position . top) (visibility . t) (width . 166) (left + -9) (top + -9)) ((min-height . 8) (min-width . 20) (min-height-ignore . 7) (min-width-ignore . 12) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 160) (min-pixel-width . 200) (min-pixel-height-ignore . 140) (min-pixel-width-ignore . 120) (min-pixel-height-safe . 40) (min-pixel-width-safe . 40)) vc (pixel-width . 1680) (pixel-height . 944) (total-width . 168) (total-height . 47) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (hc (pixel-width . 1680) (pixel-height . 650) (total-width . 168) (total-height . 32) (normal-height . 0.689507494646681) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 310) (pixel-height . 650) (total-width . 31) (total-height . 32) (normal-height . 1.0) (normal-width . 0.18382352941176472) (buffer "*SPEEDBAR*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 1) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 109) (start . 1))) (leaf (last . t) (pixel-width . 1370) (pixel-height . 650) (total-width . 137) (total-height . 32) (normal-height . 1.0) (normal-width . 0.8161764705882353) (buffer "tv_mainwindow.py" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 3423) (start . 2815)))) (leaf (last . t) (pixel-width . 1680) (pixel-height . 294) (total-width . 168) (total-height . 14) (normal-height . 0.31049250535331907) (normal-width . 1.0) (buffer "*shell*" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 4) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 108771) (start . 108477)))))])
+(setq desktop-saved-frameset [frameset 1 (22563 20604 112420 300000) (desktop . "208") "CGuillemot@SLB-94YVLQ1" nil nil ((((font-backend uniscribe gdi) (font . "-outline-Courier New-normal-normal-normal-mono-17-*-*-*-c-*-iso8859-1") (border-width . 2) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#b2b2b2") (background-color . "#292b2e") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (alpha) (menu-bar-lines . 1) (tool-bar-lines . 0) (height . 36) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (fullscreen) (display-type . color) (background-mode . dark) (cursor-color . "#e3dedd") (environment) (frameset--id . "EAED-EB07-BEAE-630F") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . "w32") (explicit-name) (tool-bar-position . top) (visibility . t) (width . 80) (left . 30) (top . 30)) ((min-height . 8) (min-width . 20) (min-height-ignore . 7) (min-width-ignore . 12) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 160) (min-pixel-width . 200) (min-pixel-height-ignore . 140) (min-pixel-width-ignore . 120) (min-pixel-height-safe . 40) (min-pixel-width-safe . 40)) vc (pixel-width . 816) (pixel-height . 700) (total-width . 82) (total-height . 35) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (hc (pixel-width . 816) (pixel-height . 476) (total-width . 82) (total-height . 24) (normal-height . 0.6764705882352942) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 120) (pixel-height . 476) (total-width . 12) (total-height . 24) (normal-height . 1.0) (normal-width . 0.14705882352941174) (buffer "*SPEEDBAR*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 1) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1))) (leaf (last . t) (pixel-width . 696) (pixel-height . 476) (total-width . 70) (total-height . 24) (normal-height . 1.0) (normal-width . 0.8529411764705882) (buffer "data_test.py" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 7474) (start . 6756)))) (leaf (last . t) (pixel-width . 816) (pixel-height . 224) (total-width . 82) (total-height . 11) (normal-height . 0.3235294117647059) (normal-width . 1.0) (buffer "*shell*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 6980) (start . 6653)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("c" "cc"))
-(setq regexp-search-ring '("import da" "import data" "import da" "warning" "new_se" "new" "file" "Data" "home" "import" "new se" "data" "new_sess" "Home" "open_home" "init_"))
-(setq register-alist '((48 . "    elt = introspection.find('.//*[@objectName=\"buttonData\"]')\n    introspection.element_region(elt).click()\n")))
+(setq search-ring '("tv_main" "c" "cc"))
+(setq regexp-search-ring '("refer" "sort" "import da" "import data" "import da" "warning" "new_se" "new" "file" "Data" "home" "import" "new se" "data" "new_sess" "Home"))
+(setq register-alist '((48 . "    tree = introspection.find('.//*[@objectName=\"TVProjectBrowser\"]')\n")))
 (setq file-name-history '("d:/NOTBACKEDUP/Public/runTests.bat" "d:/Documents/test_pikuli/framework_tests/platform_and_base/dashboard_mode.sikuli/dashboard_mode.py" "d:/NOTBACKEDUP/Public/runTests.bat" "d:/Documents/test_pikuli/ocean/workstep_by_dataset.sikuli/" "workstep_by_dataset.py" "d:/Documents/test_pikuli/" "d:/NOTBACKEDUP/Public/runTests.bat"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
-  "d:/Documents/test_pikuli/techlog_sikuli/base/tv_mainwindow.py"
-  "tv_mainwindow.py"
+  "d:/Documents/test_pikuli/techlog_viewer/data_test.sikuli/data_test.py"
+  "data_test.py"
   'python-mode
-  '(undo-tree-mode linum-mode flycheck-mode auto-complete-mode)
-  3423
-  '(3413 nil)
+  '(linum-mode diff-hl-mode flycheck-mode auto-complete-mode undo-tree-mode)
+  7474
+  '(7449 nil)
   nil
   nil
   '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos) (overwrite-mode))
-  '((mark-ring (3502 1333 1334 1936 1936 4178 4178 4270 4270 4270 3472 1484 1478 1433 1347 1480))))
+  '((mark-ring (7440 7336 7337 7121 6898 6898 6648 6818 6648 6423 6172 6079 6079 6172 5946 7474))))
+
+(desktop-create-buffer 208
+  "d:/Documents/test_pikuli/techlog_sikuli/base/tv_mainwindow.py"
+  "tv_mainwindow.py"
+  'python-mode
+  '(linum-mode diff-hl-mode flycheck-mode auto-complete-mode undo-tree-mode)
+  7066
+  '(8892 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos) (overwrite-mode))
+  '((mark-ring (8892 8900 8900 8900 8745 8740 8740 8621 8468 1315 1316 3413 3502 1333 1334 1936))))
+
+(desktop-create-buffer 208
+  nil
+  "*eww*"
+  'eww-mode
+  '(linum-mode undo-tree-mode)
+  1
+  '(1 nil)
+  t
+  '(:history ((:title "arsenal - Recherche Google" :url "http://www.google.fr/search?gbv=1&bih=&biw=&source=hp&hl=fr&ie=ISO-8859-1&btnG=Recherche+Google&q=arsenal") (:title "Google" :url "http://www.google.fr/?gfe_rd=cr&ei=4M4QWL-nPOyGiAXBr6mACA" :point 236)))
+  '((buffer-file-coding-system . utf-8-dos) (overwrite-mode) (truncate-lines . t) (eww-history-position . 0))
+  '((mark-ring (1 1))))
 
 (desktop-create-buffer 208
   "d:/Documents/test_pikuli/techlog_sikuli/tools/__init__.py"
   "__init__.py"
   'python-mode
-  '(undo-tree-mode linum-mode flycheck-mode auto-complete-mode)
+  '(linum-mode diff-hl-mode flycheck-mode auto-complete-mode undo-tree-mode)
   14544
   '(14544 nil)
   nil
   nil
   '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos) (overwrite-mode))
   '((mark-ring (14398 772 772 773))))
-
-(desktop-create-buffer 208
-  "d:/Documents/test_pikuli/techlog_sikuli/sikuliTestCase/tvTestCase.py"
-  "tvTestCase.py"
-  'python-mode
-  '(undo-tree-mode linum-mode flycheck-mode auto-complete-mode)
-  70
-  '(70 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (70 70 524 524 435 126 141))))
-
-(desktop-create-buffer 208
-  "d:/Documents/test_pikuli/techlog_viewer/data_test.sikuli/data_test.py"
-  "data_test.py"
-  'python-mode
-  '(undo-tree-mode linum-mode flycheck-mode auto-complete-mode)
-  6437
-  '(6437 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos) (overwrite-mode))
-  '((mark-ring (675 512))))
-
-(desktop-create-buffer 208
-  "d:/Documents/test_pikuli/techlog_sikuli/sikuliTestCase/sikuliTestCase.py"
-  "sikuliTestCase.py"
-  'python-mode
-  '(undo-tree-mode linum-mode flycheck-mode auto-complete-mode)
-  1284
-  '(1284 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
-  '((mark-ring (1285 1800 1801 245 1737 1737 556 5685 4511 4511 1744 1737 1216 1202 1215 1712))))
-
-(desktop-create-buffer 208
-  nil
-  "*eww*"
-  'eww-mode
-  '(undo-tree-mode linum-mode)
-  1
-  '(1 nil)
-  t
-  '(:history ((:title "arsenal - Recherche Google" :url "http://www.google.fr/search?gbv=1&bih=&biw=&source=hp&hl=fr&ie=ISO-8859-1&btnG=Recherche+Google&q=arsenal") (:title "Google" :url "http://www.google.fr/?gfe_rd=cr&ei=4M4QWL-nPOyGiAXBr6mACA" :point 236)))
-  '((buffer-file-coding-system . utf-8-dos) (overwrite-mode) (truncate-lines . t) (eww-history-position . 0))
-  '((mark-ring nil)))
 

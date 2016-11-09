@@ -6,9 +6,6 @@
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 (package-initialize) ;; You might already have this line
 
-(require 'evil)
-(evil-mode 1)
-
 (shell)
 (sr-speedbar-open)
 
@@ -70,6 +67,12 @@ buffer in current window."
                 (remove-if-not 'buffer-file-name (buffer-list)))))
 
 (add-hook 'after-init-hook #'global-flycheck-mode)
+(setq flycheck-check-syntax-automatically '(mode-enabled save))
+
+(global-diff-hl-mode)
+
+(defadvice svn-status-update-modeline (after svn-update-diff-hl activate)
+    (diff-hl-update))
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
