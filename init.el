@@ -74,6 +74,8 @@ buffer in current window."
 (defadvice svn-status-update-modeline (after svn-update-diff-hl activate)
     (diff-hl-update))
 
+(global-set-key (kbd "C-M-d") (lambda () (interactive) (insert "import pdb;pdb.set_trace()")))
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
