@@ -13,6 +13,7 @@
 	evil-normal-state
 	evil-previous-line
 	evil-search-forward
+	indent-for-tab-command
 	mouse-set-region
 	))
 

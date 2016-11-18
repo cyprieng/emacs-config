@@ -9,6 +9,10 @@
 (shell)
 (sr-speedbar-open)
 
+(require 'helm-config)
+(helm-mode 1)
+(global-set-key (kbd "M-x") 'helm-M-x)
+
 (require 'tabbar)
 (tabbar-mode t)
 
@@ -34,6 +38,7 @@
 (add-hook 'python-mode-hook 'jedi:setup)
 (setq jedi:complete-on-dot t)
 
+(global-set-key (kbd "M-w") 'ace-window)
 
 (require 'multiple-cursors)
 (global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
@@ -62,8 +67,8 @@ buffer in current window."
 (defun kill-other-buffers ()
     "Kill all other buffers."
     (interactive)
-    (mapc 'kill-buffer 
-          (delq (current-buffer) 
+    (mapc 'kill-buffer
+          (delq (current-buffer)
                 (remove-if-not 'buffer-file-name (buffer-list)))))
 
 (add-hook 'after-init-hook #'global-flycheck-mode)
@@ -88,7 +93,7 @@ buffer in current window."
     ("bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" default)))
  '(package-selected-packages
    (quote
-    (tabbar flycheck virtualenvwrapper helm magit psvn diff-hl elscreen multiple-cursors evil spacemacs-theme jedi solarized-theme)))
+    (ace-window tabbar flycheck virtualenvwrapper helm magit psvn diff-hl elscreen multiple-cursors evil spacemacs-theme jedi solarized-theme)))
  '(safe-local-variable-values (quote ((project-venv-name . "pikuli")))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
