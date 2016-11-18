@@ -76,6 +76,8 @@ buffer in current window."
 
 (global-set-key (kbd "C-M-d") (lambda () (interactive) (insert "import pdb;pdb.set_trace()")))
 
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
