@@ -18,6 +18,7 @@
 ;; SMART PARENTHESIS
 (require 'smartparens-config)
 (add-hook 'python-mode-hook #'smartparens-mode)
+(add-hook 'php-mode-hook #'smartparens-mode)
 
 ;; TABBAR
 (require 'tabbar)
@@ -43,14 +44,6 @@
 
 ;; SCREEN
 (elscreen-start)
-
-;; JEDI CONFIG
-(require 'virtualenvwrapper)
-(venv-initialize-interactive-shells) ;; if you want interactive shell support
-(setq venv-location "C:/Users/CGuillemot/Envs")
-(add-hook 'python-mode-hook 'jedi:setup)
-(setq jedi:complete-on-dot t)
-(global-set-key (kbd "C-c g") 'jedi:goto-definition)
 
 ;; ACE WINDOW
 (global-set-key (kbd "M-w") 'ace-window)
@@ -87,21 +80,41 @@ buffer in current window."
           (delq (current-buffer)
                 (remove-if-not 'buffer-file-name (buffer-list)))))
 
-;; FLY CHECK
-(add-hook 'after-init-hook #'global-flycheck-mode)
-(setq flycheck-check-syntax-automatically '(mode-enabled save))
-
 ;; SVN DIFF HIGHLIGHTER
 (global-diff-hl-mode)
 (defadvice svn-status-update-modeline (after svn-update-diff-hl activate)
     (diff-hl-update))
 
-;; COMMAND INSERT DEBUG LINE
-(eval-after-load 'python 
-                 '(define-key python-mode-map (kbd "C-M-d") (lambda () (interactive) (insert "import pdb;pdb.set_trace()"))))
-
 ;; DELETE WHITESPACE BEFORE SAVE
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
+
+;; PYTHON===============================================================================
+;; FLY CHECK
+(add-hook 'after-init-hook #'global-flycheck-mode)
+(setq flycheck-check-syntax-automatically '(mode-enabled save))
+
+;; COMMAND INSERT DEBUG LINE
+(eval-after-load 'python
+                 '(define-key python-mode-map (kbd "C-M-d") (lambda () (interactive) (insert "import pdb;pdb.set_trace()"))))
+
+;; JEDI CONFIG
+(require 'virtualenvwrapper)
+(venv-initialize-interactive-shells) ;; if you want interactive shell support
+(setq venv-location "C:/Users/CGuillemot/Envs")
+(add-hook 'python-mode-hook 'jedi:setup)
+(setq jedi:complete-on-dot t)
+(global-set-key (kbd "C-c g") 'jedi:goto-definition)
+
+;; PHP===============================================================================
+(autoload 'php-mode "php-mode" "Major mode for editing php code." t)
+(add-to-list 'auto-mode-alist '("\\.php$" . php-mode))
+(add-to-list 'auto-mode-alist '("\\.inc$" . php-mode))
+
+;; COMMAND INSERT DEBUG LINE
+(eval-after-load 'php-mode
+                 '(define-key php-mode-map (kbd "C-M-d") (lambda () (interactive) (insert "eval(\\Psy\\sh());"))))
+
+;;===============================================================================
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

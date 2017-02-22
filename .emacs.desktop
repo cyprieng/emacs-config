@@ -2,21 +2,81 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Wed Feb 22 12:12:23 2017
+;; Created Wed Feb 22 14:57:51 2017
 ;; Desktop file format version 208
 ;; Emacs version 25.1.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (22701 29207 437395 700000) (desktop . "208") "CGuillemot@SLB-94YVLQ1" nil nil ((((font-backend uniscribe gdi) (font . "-outline-Courier New-normal-normal-normal-mono-17-*-*-*-c-*-iso8859-1") (border-width . 2) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#b2b2b2") (background-color . "#292b2e") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (alpha) (menu-bar-lines . 1) (tool-bar-lines . 0) (height . 48) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#e3dedd") (environment) (frameset--id . "EAED-EB07-BEAE-630F") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . "w32") (explicit-name) (tool-bar-position . top) (fullscreen-restore . maximized) (visibility . t) (width . 166) (left + -9) (top + -9)) ((min-height . 8) (min-width . 20) (min-height-ignore . 7) (min-width-ignore . 10) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 160) (min-pixel-width . 200) (min-pixel-height-ignore . 140) (min-pixel-width-ignore . 100) (min-pixel-height-safe . 40) (min-pixel-width-safe . 40)) vc (pixel-width . 1680) (pixel-height . 944) (total-width . 168) (total-height . 47) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (hc (pixel-width . 1680) (pixel-height . 650) (total-width . 168) (total-height . 32) (normal-height . 0.6857142857142857) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 372) (pixel-height . 650) (total-width . 37) (total-height . 32) (normal-height . 1.0) (normal-width . 0.22182468694096602) (buffer "*SPEEDBAR*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 2) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 488) (start . 1))) (leaf (last . t) (pixel-width . 1308) (pixel-height . 650) (total-width . 131) (total-height . 32) (normal-height . 1.0) (normal-width . 0.7781753130590339) (buffer "test2.py" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1)))) (leaf (last . t) (pixel-width . 1680) (pixel-height . 294) (total-width . 168) (total-height . 15) (normal-height . 0.3142857142857143) (normal-width . 1.0) (buffer "*shell*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 2) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 329) (start . 103)))))])
+(setq desktop-saved-frameset [frameset 1 (22701 39135 498907 400000) (desktop . "208") "CGuillemot@SLB-94YVLQ1" nil nil ((((font-backend uniscribe gdi) (font . "-outline-Courier New-normal-normal-normal-mono-17-*-*-*-c-*-iso8859-1") (border-width . 2) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#b2b2b2") (background-color . "#292b2e") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (alpha) (menu-bar-lines . 1) (tool-bar-lines . 0) (height . 48) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#e3dedd") (environment) (frameset--id . "EAED-EB07-BEAE-630F") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . "w32") (explicit-name) (tool-bar-position . top) (fullscreen-restore . maximized) (visibility . t) (width . 166) (left + -9) (top + -9)) ((min-height . 8) (min-width . 20) (min-height-ignore . 8) (min-width-ignore . 11) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 160) (min-pixel-width . 200) (min-pixel-height-ignore . 160) (min-pixel-width-ignore . 110) (min-pixel-height-safe . 40) (min-pixel-width-safe . 40)) vc (pixel-width . 1680) (pixel-height . 944) (total-width . 168) (total-height . 47) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (hc (pixel-width . 1680) (pixel-height . 640) (total-width . 168) (total-height . 32) (normal-height . 0.6779661016949152) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 350) (pixel-height . 640) (total-width . 35) (total-height . 32) (normal-height . 1.0) (normal-width . 0.20833333333333337) (buffer "*SPEEDBAR*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 2) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 257) (start . 27))) (leaf (last . t) (pixel-width . 1330) (pixel-height . 640) (total-width . 133) (total-height . 32) (normal-height . 1.0) (normal-width . 0.7916666666666666) (buffer "test.php" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 1) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 43) (start . 1)))) (hc (last . t) (pixel-width . 1680) (pixel-height . 304) (total-width . 168) (total-height . 15) (normal-height . 0.3220338983050847) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 840) (pixel-height . 304) (total-width . 84) (total-height . 15) (normal-height . 1.0) (normal-width . 0.5) (buffer "*shell*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 1) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 126) (start . 1))) (leaf (last . t) (pixel-width . 840) (pixel-height . 304) (total-width . 84) (total-height . 15) (normal-height . 1.0) (normal-width . 0.5) (buffer "*Compile-Log*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 1) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 63) (start . 1))))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("drop_da" "drag_and_drop_fil" "filter" "zonation" "stra" "screen" "print" "refe" "skip" "selection" "well3D" "populate_i" "populate_fi" "is_filter_in" "Well3" "decimation"))
-(setq regexp-search-ring '("python " "python" "pytho" "python" "pyt" "pytho" "line" "python" "pyth" "python" "set " "python" "p^ytho" "pytho" "set" "python"))
+(setq search-ring '("path" "drop_da" "drag_and_drop_fil" "filter" "zonation" "stra" "screen" "print" "refe" "skip" "selection" "well3D" "populate_i" "populate_fi" "is_filter_in" "Well3"))
+(setq regexp-search-ring '("python" "python " "python" "pytho" "python" "pyt" "pytho" "line" "python" "pyth" "python" "set " "python" "p^ytho" "pytho" "set"))
 (setq register-alist '((48 . "    tree = introspection.find('.//*[@objectName=\"TVProjectBrowser\"]')\n")))
 (setq file-name-history '("d:/NOTBACKEDUP/Public/runTests.bat" "d:/Documents/test_pikuli/framework_tests/platform_and_base/dashboard_mode.sikuli/dashboard_mode.py" "d:/NOTBACKEDUP/Public/runTests.bat" "d:/Documents/test_pikuli/ocean/workstep_by_dataset.sikuli/" "workstep_by_dataset.py" "d:/Documents/test_pikuli/" "d:/NOTBACKEDUP/Public/runTests.bat"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "d:/Documents/test_pikuli/test.php"
+  "test.php"
+  'php-mode
+  '(abbrev-mode helm-mode smartparens-mode linum-mode diff-hl-mode flycheck-mode)
+  43
+  '(43 nil)
+  nil
+  nil
+  '((show-trailing-whitespace) (tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos) (case-fold-search . t))
+  '((mark-ring (43 43 43 23 47 47 42 42 7 21 43 47 47 44 43 43))))
+
+(desktop-create-buffer 208
+  "c:/Users/CGuillemot/AppData/Roaming/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(helm-mode linum-mode diff-hl-mode flycheck-mode)
+  3716
+  '(144 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-dos))
+  '((mark-ring (1269 1269 1010 527 407 1 86 143 3639))))
+
+(desktop-create-buffer 208
+  "d:/Documents/test_pikuli/techlog_sikuli/plot/__init__.py"
+  "__init__.py"
+  'python-mode
+  '(helm-mode smartparens-mode linum-mode diff-hl-mode flycheck-mode auto-complete-mode)
+  13645
+  '(12238 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos))
+  '((mark-ring (6368 683 23142 23110 22952 23103 23050 23077 23020 22996 23050 22952 23057 22936 23057 13645))))
+
+(desktop-create-buffer 208
+  "d:/Documents/test_pikuli/techlog_sikuli/workflow_manager/__init__.py"
+  "__init__.py"
+  'python-mode
+  '(helm-mode smartparens-mode linum-mode diff-hl-mode flycheck-mode auto-complete-mode)
+  6119
+  '(6211 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos))
+  '((mark-ring (6330 413 413 5590 4611 5591 5774 6172 6202 6331))))
+
+(desktop-create-buffer 208
+  "d:/Documents/test_pikuli/framework_tests/platform_and_base/python_editor_test.sikuli/python_editor_test.py"
+  "python_editor_test.py"
+  'python-mode
+  '(helm-mode smartparens-mode linum-mode diff-hl-mode flycheck-mode auto-complete-mode)
+  1275
+  '(1879 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1860 538 1830 1736 1736 1785 1275))))
+
 (desktop-create-buffer 208
   "d:/Documents/test_pikuli/test2.py"
   "test2.py"
@@ -54,30 +114,6 @@
   '((mark-ring (297 187 13))))
 
 (desktop-create-buffer 208
-  "d:/Documents/test_pikuli/framework_tests/platform_and_base/python_editor_test.sikuli/python_editor_test.py"
-  "python_editor_test.py"
-  'python-mode
-  '(helm-mode smartparens-mode linum-mode diff-hl-mode flycheck-mode auto-complete-mode)
-  1787
-  '(1879 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring (1860 538 1830 1736 1736 1785))))
-
-(desktop-create-buffer 208
-  "d:/Documents/test_pikuli/techlog_sikuli/workflow_manager/__init__.py"
-  "__init__.py"
-  'python-mode
-  '(helm-mode smartparens-mode linum-mode diff-hl-mode flycheck-mode auto-complete-mode)
-  5591
-  '(413 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos))
-  '((mark-ring (413 5590))))
-
-(desktop-create-buffer 208
   "d:/Documents/test_pikuli/techlog_sikuli/python/editor.py"
   "editor.py"
   'python-mode
@@ -100,18 +136,6 @@
   nil
   '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos) (overwrite-mode))
   '((mark-ring (36039 35562 35605 36083 36366 29942 30002 36034 36198 36198 11284 29526 29446 36326 36198 36327))))
-
-(desktop-create-buffer 208
-  "d:/Documents/test_pikuli/techlog_sikuli/plot/__init__.py"
-  "__init__.py"
-  'python-mode
-  '(helm-mode smartparens-mode linum-mode multiple-cursors-mode diff-hl-mode flycheck-mode)
-  15534
-  '(12238 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-dos))
-  '((mark-ring (6368 683 23142 23110 22952 23103 23050 23077 23020 22996 23050 22952 23057 22936 23057 15534))))
 
 (desktop-create-buffer 208
   "d:/Documents/test_pikuli/techlog_sikuli/plot/crossplot.py"
