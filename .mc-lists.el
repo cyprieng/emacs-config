@@ -3,6 +3,9 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+	beginning-of-buffer
+	c-electric-slash
+	comment-line
 	evil-backward-char
 	evil-exit-visual-state
 	evil-force-normal-state
@@ -13,11 +16,22 @@
 	evil-normal-state
 	evil-previous-line
 	evil-search-forward
+	ignore
 	indent-for-tab-command
+	indent-rigidly
+	indent-rigidly-right
+	jedi:goto-definition
+	kill-region
+	mouse-select-window
 	mouse-set-region
+	overwrite-mode
+	python-indent-dedent-line
+	suspend-frame
+	tabbar-select-tab-callback
 	))
 
 (setq mc/cmds-to-run-once
       '(
 	evil-insert
+	mouse-drag-header-line
 	))

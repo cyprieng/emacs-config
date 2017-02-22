@@ -6,58 +6,66 @@
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 (package-initialize) ;; You might already have this line
 
+;; OPEN SHELL AND FILE EXPLORER
 (shell)
 (sr-speedbar-open)
 
+;; HELM
 (require 'helm-config)
 (helm-mode 1)
 (global-set-key (kbd "M-x") 'helm-M-x)
 
+;; SMART PARENTHESIS
 (require 'smartparens-config)
 (add-hook 'python-mode-hook #'smartparens-mode)
 
+;; TABBAR
 (require 'tabbar)
 (tabbar-mode t)
 
+;; BASIC CONFIG & THEME
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 (global-linum-mode t)
 (desktop-save-mode 1)
 (load-theme 'spacemacs-dark t)
 
+;; SCROLL OPTION
 (setq redisplay-dont-pause t
   scroll-margin 1
   scroll-step 1
   scroll-conservatively 10000
   scroll-preserve-screen-position 1)
-
-;; scroll one line at a time (less "jumpy" than defaults)
 (setq mouse-wheel-scroll-amount '(1 ((shift) . 1))) ;; one line at a time
 (setq mouse-wheel-progressive-speed nil) ;; don't accelerate scrolling
 (setq mouse-wheel-follow-mouse 't) ;; scroll window under mouse
 (setq scroll-step 1) ;; keyboard scroll one line at a time
 
-
+;; SCREEN
 (elscreen-start)
 
-
+;; JEDI CONFIG
 (require 'virtualenvwrapper)
 (venv-initialize-interactive-shells) ;; if you want interactive shell support
 (setq venv-location "C:/Users/CGuillemot/Envs")
-
 (add-hook 'python-mode-hook 'jedi:setup)
 (setq jedi:complete-on-dot t)
+(global-set-key (kbd "C-c g") 'jedi:goto-definition)
 
+;; ACE WINDOW
 (global-set-key (kbd "M-w") 'ace-window)
 
+;; MULTIPLE CURSORS
 (require 'multiple-cursors)
 (global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
 (global-set-key (kbd "C->") 'mc/mark-next-like-this-word)
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this-word)
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this-word)
 
+;; KILL SHELL SHORTCUT
 (global-set-key (kbd "C-c C-q") 'comint-quit-subjob)
 
+;; DIDICATED WINDOW
 (defun toggle-window-dedicated ()
   "Control whether or not Emacs is allowed to display another
 buffer in current window."
@@ -71,9 +79,7 @@ buffer in current window."
 
 (global-set-key (kbd "C-c t") 'toggle-window-dedicated)
 
-
-(global-set-key (kbd "C-c g") 'jedi:goto-definition)
-
+;; KILL OTHER BUFFERS COMMAND
 (defun kill-other-buffers ()
     "Kill all other buffers."
     (interactive)
@@ -81,16 +87,20 @@ buffer in current window."
           (delq (current-buffer)
                 (remove-if-not 'buffer-file-name (buffer-list)))))
 
+;; FLY CHECK
 (add-hook 'after-init-hook #'global-flycheck-mode)
 (setq flycheck-check-syntax-automatically '(mode-enabled save))
 
+;; SVN DIFF HIGHLIGHTER
 (global-diff-hl-mode)
-
 (defadvice svn-status-update-modeline (after svn-update-diff-hl activate)
     (diff-hl-update))
 
-(global-set-key (kbd "C-M-d") (lambda () (interactive) (insert "import pdb;pdb.set_trace()")))
+;; COMMAND INSERT DEBUG LINE
+(eval-after-load 'python 
+                 '(define-key python-mode-map (kbd "C-M-d") (lambda () (interactive) (insert "import pdb;pdb.set_trace()"))))
 
+;; DELETE WHITESPACE BEFORE SAVE
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 (custom-set-variables
