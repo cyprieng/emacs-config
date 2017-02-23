@@ -88,11 +88,11 @@ buffer in current window."
 ;; DELETE WHITESPACE BEFORE SAVE
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
-;; PYTHON===============================================================================
 ;; FLY CHECK
 (add-hook 'after-init-hook #'global-flycheck-mode)
 (setq flycheck-check-syntax-automatically '(mode-enabled save))
 
+;; PYTHON===============================================================================
 ;; COMMAND INSERT DEBUG LINE
 (eval-after-load 'python
                  '(define-key python-mode-map (kbd "C-M-d") (lambda () (interactive) (insert "import pdb;pdb.set_trace()"))))
@@ -103,7 +103,8 @@ buffer in current window."
 (setq venv-location "C:/Users/CGuillemot/Envs")
 (add-hook 'python-mode-hook 'jedi:setup)
 (setq jedi:complete-on-dot t)
-(global-set-key (kbd "C-c g") 'jedi:goto-definition)
+(eval-after-load 'python
+		 '(define-key python-mode-map (kbd "C-c g") 'jedi:goto-definition))
 
 ;; PHP===============================================================================
 (autoload 'php-mode "php-mode" "Major mode for editing php code." t)
@@ -113,6 +114,30 @@ buffer in current window."
 ;; COMMAND INSERT DEBUG LINE
 (eval-after-load 'php-mode
                  '(define-key php-mode-map (kbd "C-M-d") (lambda () (interactive) (insert "eval(\\Psy\\sh());"))))
+
+;; AC PHP
+(add-hook 'php-mode-hook
+            '(lambda ()
+               (auto-complete-mode t)
+               (require 'ac-php)
+               (setq ac-sources  '(ac-source-php ) )
+               (yas-global-mode 1)
+               (define-key php-mode-map  (kbd "C-c g") 'ac-php-find-symbol-at-point)   ;goto define
+               (define-key php-mode-map  (kbd "C-t") 'ac-php-location-stack-back   ) ;go back
+               ))
+
+;; JAVASCRIPT===============================================================================
+(add-hook 'js-mode-hook 
+	  '(lambda ()
+		(tern-mode t)
+		(define-key js-mode-map  (kbd "C-c g") 'tern-find-definition)   ;goto define
+	  ))
+
+(eval-after-load 'tern
+   '(progn
+      (auto-complete-mode t)
+      (require 'tern-auto-complete)
+      (tern-ac-setup)))
 
 ;;===============================================================================
 
@@ -126,7 +151,7 @@ buffer in current window."
     ("bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" default)))
  '(package-selected-packages
    (quote
-    (smartparens ace-window tabbar flycheck virtualenvwrapper helm magit psvn diff-hl elscreen multiple-cursors evil spacemacs-theme jedi solarized-theme)))
+    (ac-php smartparens ace-window tabbar flycheck virtualenvwrapper helm magit psvn diff-hl elscreen multiple-cursors evil spacemacs-theme jedi solarized-theme)))
  '(safe-local-variable-values (quote ((project-venv-name . "pikuli")))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
