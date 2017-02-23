@@ -58,7 +58,7 @@
 ;; KILL SHELL SHORTCUT
 (global-set-key (kbd "C-c C-q") 'comint-quit-subjob)
 
-;; DIDICATED WINDOW
+;; DEDICATED WINDOW
 (defun toggle-window-dedicated ()
   "Control whether or not Emacs is allowed to display another
 buffer in current window."
@@ -109,7 +109,7 @@ buffer in current window."
         (re-search-backward "[^ \t\n]" nil :no-error)
         (forward-char)
         (kill-region p (point)))
-    (kill-word 1)))
+    (backward-kill-word 1)))
 
 (global-set-key  [C-delete] 'kill-whitespace-or-word)
 (global-set-key  [C-backspace] 'kill-whitespace-or-word-backward)
