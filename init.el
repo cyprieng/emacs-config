@@ -34,7 +34,7 @@
 
 ;; OPEN SHELL AND FILE EXPLORER
 (shell)
-(sr-speedbar-open)
+(add-hook 'after-init-hook #'neotree-toggle)
 
 ;; HELM
 (require 'helm-config)
@@ -173,6 +173,8 @@ buffer in current window."
                ))
 
 ;; JAVASCRIPT===============================================================================
+(setenv "PATH" (concat (getenv "PATH") ":/usr/local/bin"))
+(setq exec-path (append exec-path '("/usr/local/bin")))
 (add-hook 'js-mode-hook
 	  '(lambda ()
 		(tern-mode t)
