@@ -399,4 +399,8 @@
   ("is_version_greater_or_equal_to" .
    [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("path" .
-   [3 0 0 0])))
+   [3 0 0 0])
+  ("ParentIterator(" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("RecursiveIterator $iterator)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])))

@@ -46,6 +46,9 @@
 (add-hook 'python-mode-hook #'smartparens-mode)
 (add-hook 'php-mode-hook #'smartparens-mode)
 
+;; GUESS IDENT
+(dtrt-indent-mode t)
+
 ;; TABBAR
 (require 'tabbar)
 (tabbar-mode t)
@@ -209,7 +212,7 @@ buffer in current window."
     ("bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" default)))
  '(package-selected-packages
    (quote
-    (neotree hungry-delete ac-php smartparens ace-window tabbar flycheck virtualenvwrapper helm magit psvn diff-hl elscreen multiple-cursors evil spacemacs-theme jedi solarized-theme)))
+    (dtrt-indent neotree hungry-delete ac-php smartparens ace-window tabbar flycheck virtualenvwrapper helm magit psvn diff-hl elscreen multiple-cursors evil spacemacs-theme jedi solarized-theme)))
  '(safe-local-variable-values (quote ((project-venv-name . "pikuli")))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

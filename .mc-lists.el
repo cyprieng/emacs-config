@@ -4,6 +4,8 @@
 (setq mc/cmds-to-run-for-all
       '(
 	beginning-of-buffer
+	c-electric-paren
+	c-electric-semi&comma
 	c-electric-slash
 	comment-line
 	evil-backward-char
@@ -22,12 +24,15 @@
 	indent-rigidly-right
 	jedi:goto-definition
 	kill-region
+	kill-whitespace-or-word-backward
 	mouse-select-window
 	mouse-set-region
 	overwrite-mode
 	python-indent-dedent-line
+	sp-remove-active-pair-overlay
 	suspend-frame
 	tabbar-select-tab-callback
+	tern-ac-dot-complete
 	))
 
 (setq mc/cmds-to-run-once
