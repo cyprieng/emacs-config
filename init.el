@@ -34,6 +34,8 @@
 
 ;; OPEN SHELL AND FILE EXPLORER
 (shell)
+
+(setq neo-window-width 40)
 (add-hook 'after-init-hook #'neotree-toggle)
 
 ;; HELM
