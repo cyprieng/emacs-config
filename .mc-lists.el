@@ -24,6 +24,7 @@
 	indent-rigidly-right
 	jedi:goto-definition
 	kill-region
+	kill-whitespace-or-word
 	kill-whitespace-or-word-backward
 	mouse-select-window
 	mouse-set-region
@@ -39,4 +40,5 @@
       '(
 	evil-insert
 	mouse-drag-header-line
+	sgml-slash
 	))
