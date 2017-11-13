@@ -33,7 +33,7 @@
 (global-set-key (kbd "C-c x") 'pbcut)
 
 ;; OPEN SHELL AND FILE EXPLORER
-(shell)
+(term "/bin/bash")
 
 (setq neo-window-width 40)
 (add-hook 'after-init-hook #'neotree-toggle)
