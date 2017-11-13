@@ -1,4 +1,10 @@
-((("RecursiveIterator $iterator)" .
+((("product_id" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("value" .
+   [2 0 0 0 0])
+  ("sizes" .
+   [1 0 0 0 0])
+  ("RecursiveIterator $iterator)" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
   ("ParentIterator(" .
    [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
