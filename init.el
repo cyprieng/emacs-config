@@ -97,6 +97,9 @@
 ;; KILL SHELL SHORTCUT
 (global-set-key (kbd "C-c C-q") 'comint-quit-subjob)
 
+;; KILL CURRENT BUFFER
+(global-set-key (kbd "C-q") 'kill-this-buffer)
+
 ;; DEDICATED WINDOW
 (defun toggle-window-dedicated ()
   "Control whether or not Emacs is allowed to display another
