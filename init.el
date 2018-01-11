@@ -117,6 +117,14 @@ buffer in current window."
 
 (global-set-key (kbd "C-c t") 'toggle-window-dedicated)
 
+;; AVOID SPLIT WINDOW
+(defun toggle-window-unsplittable ()
+  "Control whether or not Emacs is allowed to split window."
+  (interactive)
+         (set-frame-parameter nil 'unsplittable t)
+   (current-buffer))
+(global-set-key (kbd "C-c C-t") 'toggle-window-unsplittable)
+
 ;; KILL OTHER BUFFERS COMMAND
 (defun kill-other-buffers ()
     "Kill all other buffers."
