@@ -2,42 +2,114 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Mon Nov 13 10:42:54 2017
+;; Created Thu Jan 11 14:30:26 2018
 ;; Desktop file format version 208
 ;; Emacs version 25.1.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23049 26910 817288 0) (desktop . "208") "octipas@Mac-mini-de-Octipas-2.local" nil nil ((((font-backend mac-ct) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#b2b2b2") (background-color . "#292b2e") (line-spacing) (left-fringe . 8) (right-fringe . 8) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . fullheight) (display-type . color) (background-mode . dark) (cursor-color . "#e3dedd") (environment) (frameset--id . "4576-2041-5282-DEB8") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (display . "Mac-mini-de-Octipas-2.local") (explicit-name) (tool-bar-position . top) (user-size . t) (visibility . t) (height . 73) (width . 271) (left . 1921) (top . 23)) ((min-height . 4) (min-width . 63) (min-height-ignore . 4) (min-width-ignore . 21) (min-height-safe . 1) (min-width-safe . 6) (min-pixel-height . 56) (min-pixel-width . 441) (min-pixel-height-ignore . 56) (min-pixel-width-ignore . 147) (min-pixel-height-safe . 14) (min-pixel-width-safe . 42)) hc (pixel-width . 1913) (pixel-height . 961) (total-width . 273) (total-height . 68) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 301) (pixel-height . 961) (total-width . 43) (total-height . 68) (normal-height . 1.0) (normal-width . 0.1560376372190277) (buffer " *NeoTree*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated . t) (point . 805) (start . 126))) (hc (last . t) (pixel-width . 1612) (pixel-height . 961) (total-width . 230) (total-height . 68) (normal-height . 1.0) (normal-width . 0.8439623627809724) (combination-limit . t) (leaf (pixel-width . 807) (pixel-height . 961) (total-width . 115) (total-height . 68) (normal-height . 1.0) (normal-width . 0.5) (buffer "server.py" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 9054) (start . 7834))) (leaf (last . t) (pixel-width . 805) (pixel-height . 961) (total-width . 115) (total-height . 68) (normal-height . 1.0) (normal-width . 0.5) (buffer "*Warnings*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 638) (start . 1))))))])
+(setq desktop-saved-frameset [frameset 1 (23127 26354 414472 0) (desktop . "208") "octipas@Mac-mini-de-Octipas-2.local" nil nil ((((font-backend mac-ct) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#b2b2b2") (background-color . "#292b2e") (line-spacing) (left-fringe . 8) (right-fringe . 8) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . fullheight) (display-type . color) (background-mode . dark) (cursor-color . "#e3dedd") (environment) (frameset--id . "4576-2041-5282-DEB8") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (display . "Mac-mini-de-Octipas-2.local") (explicit-name) (tool-bar-position . top) (user-size . t) (treemacs-id . "1") (visibility . t) (height . 73) (width . 271) (left . 1920) (top . 23)) ((min-height . 4) (min-width . 53) (min-height-ignore . 4) (min-width-ignore . 11) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 56) (min-pixel-width . 371) (min-pixel-height-ignore . 56) (min-pixel-width-ignore . 77) (min-pixel-height-safe . 14) (min-pixel-width-safe . 28)) hc (pixel-width . 1913) (pixel-height . 1011) (total-width . 273) (total-height . 72) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 301) (pixel-height . 1011) (total-width . 43) (total-height . 72) (normal-height . 1.0) (normal-width . 0.1560376372190277) (buffer " *NeoTree*" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated . t) (point . 290) (start . 1))) (leaf (last . t) (pixel-width . 1612) (pixel-height . 1011) (total-width . 230) (total-height . 72) (normal-height . 1.0) (normal-width . 0.8439623627809724) (buffer "*shell*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 1) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated . t) (point . 11) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("loader" "$zv" "update" "#pay" "direct_payment_ref" "inittran" "init" "$sb" "init" "$sb" "missing" "scanActio" "$nd" "center" "link" "security"))
+(setq search-ring '("figaret" "login" "zad" "figaret" "config" "filter" "brand" "routes" "ref" "searc" "manageroverride" "valorisebasketmer" "valori" "home.h" "template" "loader"))
 (setq regexp-search-ring '("python" "python " "python" "pytho" "python" "pyt" "pytho" "line" "python" "pyth" "python" "set " "python" "p^ytho" "pytho" "set"))
 (setq register-alist '((48 . "    tree = introspection.find('.//*[@objectName=\"TVProjectBrowser\"]')\n")))
-(setq file-name-history '("d:/NOTBACKEDUP/Public/runTests.bat" "d:/Documents/test_pikuli/framework_tests/platform_and_base/dashboard_mode.sikuli/dashboard_mode.py" "d:/NOTBACKEDUP/Public/runTests.bat" "d:/Documents/test_pikuli/ocean/workstep_by_dataset.sikuli/" "workstep_by_dataset.py" "d:/Documents/test_pikuli/" "d:/NOTBACKEDUP/Public/runTests.bat"))
+(setq file-name-history '("/Library/WebServer/Documents/Octipas-api/api/app/Http/ClassesOctiapp/ToolsClasses/Image.php~" "/Library/WebServer/Documents/test.org" "~/octipas/Crons/record_transaction_periodic_reports.py" "/Library/WebServer/Documents/Octipas-api/api/public/templates/madura/categories2.html.mustache" "/Library/WebServer/Documents/Octipas-api/api/public/templates/madura/categories-static.html.mustache" "d:/NOTBACKEDUP/Public/runTests.bat" "d:/Documents/test_pikuli/framework_tests/platform_and_base/dashboard_mode.sikuli/dashboard_mode.py" "d:/NOTBACKEDUP/Public/runTests.bat" "d:/Documents/test_pikuli/ocean/workstep_by_dataset.sikuli/" "workstep_by_dataset.py" "d:/Documents/test_pikuli/" "d:/NOTBACKEDUP/Public/runTests.bat"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
-  "/Library/WebServer/Documents/python_mdm_server/server/server.py"
-  "server.py"
-  'python-mode
-  '(helm-mode smartparens-mode linum-mode diff-hl-mode flycheck-mode auto-complete-mode yas-minor-mode)
-  9054
-  '(885 nil)
+  "/Library/WebServer/Documents/Octipas-api/api/public/templates/figaret/base.js"
+  "base.js"
+  'js-mode
+  '(helm-mode linum-mode diff-hl-mode flycheck-mode tern-mode auto-complete-mode yas-minor-mode projectile-mode)
+  521
+  '(220 nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix))
-  '((mark-ring (1180 9126 9054))))
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (521))))
 
 (desktop-create-buffer 208
-  "/Library/WebServer/Documents/config.php"
-  "config.php"
+  "/Library/WebServer/Documents/Octipas-api/api/public/templates/figaret/all.js"
+  "all.js"
+  'js-mode
+  '(helm-mode linum-mode diff-hl-mode flycheck-mode tern-mode yas-minor-mode projectile-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Library/WebServer/Documents/Octipas-api/api/app/Http/ClassesOctiapp/Getproductoptions/Getproductoptions.php"
+  "Getproductoptions.php"
   'php-mode
-  '(abbrev-mode helm-mode smartparens-mode linum-mode diff-hl-mode flycheck-mode auto-complete-mode yas-minor-mode)
-  85402
-  '(85402 nil)
+  '(abbrev-mode helm-mode smartparens-mode linum-mode diff-hl-mode flycheck-mode auto-complete-mode yas-minor-mode projectile-mode)
+  1326
+  '(978 nil)
   nil
   nil
-  '((show-trailing-whitespace) (tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (case-fold-search . t))
-  '((mark-ring (84151 50727 81142 84489 84303 84233 84151 84509 82433 84134 32992 32992 60943 79967 33028 31872))))
+  '((show-trailing-whitespace) (tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (fill-column . 70) (case-fold-search . t))
+  '((mark-ring (978))))
+
+(desktop-create-buffer 208
+  "/Library/WebServer/Documents/Octipas-api/api/app/Http/ClassesOctiapp/Getproductoptions/GetproductoptionsLocal.php"
+  "GetproductoptionsLocal.php"
+  'php-mode
+  '(abbrev-mode helm-mode smartparens-mode linum-mode diff-hl-mode flycheck-mode auto-complete-mode yas-minor-mode projectile-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((show-trailing-whitespace) (tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (fill-column . 70) (case-fold-search . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Library/WebServer/Documents/Octipas-api/api/app/Http/ClassesOctiapp/Getproductoptions/Merchant_1991/Getproductoptions.php"
+  "Getproductoptions.php"
+  'php-mode
+  '(abbrev-mode helm-mode smartparens-mode linum-mode diff-hl-mode flycheck-mode auto-complete-mode yas-minor-mode projectile-mode)
+  176
+  '(610 nil)
+  nil
+  nil
+  '((show-trailing-whitespace) (tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (fill-column . 70) (case-fold-search . t))
+  '((mark-ring (79 105 146 176))))
+
+(desktop-create-buffer 208
+  nil
+  "*vc-dir*"
+  'vc-dir-mode
+  '(helm-mode linum-mode diff-hl-dir-mode yas-minor-mode projectile-mode)
+  346
+  '(nil nil)
+  t
+  '("/Library/WebServer/Documents/Octipas-api/" . Git)
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "*eww*"
+  'eww-mode
+  '(helm-mode linum-mode yas-minor-mode projectile-mode)
+  1
+  '(1 nil)
+  t
+  '(:history ((:url "https://duckduckgo.com/html/?q=" :title "")))
+  '((truncate-lines . t) (eww-history-position . 0))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  nil
+  "*Desktop Treemacs Helper*"
+  'treemacs-mode
+  '(helm-mode linum-mode yas-minor-mode projectile-mode)
+  108
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode))
+  '((mark-ring nil)))
 

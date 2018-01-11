@@ -4,6 +4,8 @@
 (setq mc/cmds-to-run-for-all
       '(
 	beginning-of-buffer
+	c-electric-brace
+	c-electric-colon
 	c-electric-paren
 	c-electric-semi&comma
 	c-electric-slash
