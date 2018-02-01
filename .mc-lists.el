@@ -20,6 +20,7 @@
 	evil-normal-state
 	evil-previous-line
 	evil-search-forward
+	goto-line
 	ignore
 	indent-for-tab-command
 	indent-rigidly
