@@ -7,6 +7,7 @@
 (package-initialize) ;; You might already have this line
 
 ;;MACOS
+(setenv "PATH" (concat "/usr/local/bin:" (getenv "PATH")))
 (setq mac-option-modifier nil
       mac-command-modifier 'meta
       x-select-enable-clipboard t)
@@ -32,8 +33,8 @@
 (global-set-key (kbd "C-c v") 'pbpaste)
 (global-set-key (kbd "C-c x") 'pbcut)
 
-;; OPEN SHELL
-(shell)
+;; OPEN ESHELL
+(eshell)
 
 ;; NEOTREE
 (require 'all-the-icons)
