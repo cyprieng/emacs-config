@@ -5,3 +5,9 @@ local.el
 private.el
 *~
 .python-environments/
+.emacs.desktop.lock
+.ac-comphist.dat
+projectile-bookmarks.eld
+.cache/
+eshell/
+auto-save-list/
