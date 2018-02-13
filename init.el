@@ -214,6 +214,7 @@ buffer in current window."
 (setq exec-path (append exec-path '("/usr/local/bin")))
 (add-hook 'js-mode-hook
 	  '(lambda ()
+    (auto-complete-mode t)
 		(tern-mode t)
 		(define-key js-mode-map  (kbd "C-c g") 'tern-find-definition)   ;goto define
 	  ))
