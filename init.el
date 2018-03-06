@@ -171,6 +171,9 @@
 
 ;; OPEN ESHELL
 (eshell)
+(setq eshell-prompt-function
+  (lambda ()
+    " $ "))
 
 ;; NEOTREE
 (require 'all-the-icons)
