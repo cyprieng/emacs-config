@@ -312,6 +312,14 @@ buffer in current window."
 (global-set-key  [C-delete] 'kill-whitespace-or-word)
 (global-set-key  [C-backspace] 'kill-whitespace-or-word-backward)
 
+;; SWITCH TO BUFFER -> EXCLUDE INTERNAL BUFFERS
+(defun my-switch-to-buffer ()
+  (interactive)
+  (let ((completion-regexp-list '("\\`[^*]"
+                                  "\\`\\([^T]\\|T\\($\\|[^A]\\|A\\($\\|[^G]\\|G\\($\\|[^S]\\|S.\\)\\)\\)\\).*")))
+    (call-interactively 'switch-to-buffer)))
+(global-set-key [C-tab] 'my-switch-to-buffer)
+
 ;; PYTHON===============================================================================
 ;; COMMAND INSERT DEBUG LINE
 (eval-after-load 'python
