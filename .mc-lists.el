@@ -31,6 +31,7 @@
 	kill-whitespace-or-word-backward
 	mouse-select-window
 	mouse-set-region
+	org-self-insert-command
 	overwrite-mode
 	python-indent-dedent-line
 	sp-remove-active-pair-overlay

@@ -33,7 +33,7 @@
             ("\\(\\\\\\\\\\)"              #Xe106)
             ("\\(\\\\\\\\\\\\\\)"          #Xe107)
             ("\\({-\\)"                    #Xe108)
-            ("\\(\\[\\]\\)"                #Xe109)
+            ;;("\\(\\[\\]\\)"                #Xe109)
             ("\\(::\\)"                    #Xe10a)
             ("\\(:::\\)"                   #Xe10b)
             ("[^=]\\(:=\\)"                #Xe10c)
@@ -80,8 +80,8 @@
             ("\\(|>\\)"                    #Xe135)
             ("\\(\\^=\\)"                  #Xe136)
             ("\\(\\$>\\)"                  #Xe137)
-            ("\\(\\+\\+\\)"                #Xe138)
-            ("\\(\\+\\+\\+\\)"             #Xe139)
+            ;;("\\(\\+\\+\\)"                #Xe138)
+            ;;("\\(\\+\\+\\+\\)"             #Xe139)
             ("\\(\\+>\\)"                  #Xe13a)
             ("\\(=:=\\)"                   #Xe13b)
             ("[^!/]\\(==\\)[^>]"           #Xe13c)
@@ -286,6 +286,16 @@ buffer in current window."
 (defadvice svn-status-update-modeline (after svn-update-diff-hl activate)
     (diff-hl-update))
 
+;; DUCK DUCK GO
+(defun duckduckgo-search (text)
+  "Search DuckDuckGo from Emacs."
+  (interactive "sSearch: ")
+  (browse-url
+   (concat "https://duckduckgo.com/?q="
+           (replace-regexp-in-string " " "+" text))))
+
+(global-set-key  (kbd "C-c s") 'duckduckgo-search)
+
 ;; DELETE WHITESPACE BEFORE SAVE
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
@@ -384,7 +394,7 @@ buffer in current window."
     ("bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" default)))
  '(package-selected-packages
    (quote
-    (origami highlight-indent-guides all-the-icons-dired projectile doom-themes dracula-theme treemacs vimish-fold jedi vue-mode dtrt-indent neotree hungry-delete ac-php smartparens ace-window tabbar flycheck virtualenvwrapper helm magit psvn diff-hl elscreen multiple-cursors evil spacemacs-theme solarized-theme)))
+    (term+ multi-term origami highlight-indent-guides all-the-icons-dired projectile doom-themes dracula-theme treemacs vimish-fold jedi vue-mode dtrt-indent neotree hungry-delete ac-php smartparens ace-window tabbar flycheck virtualenvwrapper helm magit psvn diff-hl elscreen multiple-cursors evil spacemacs-theme solarized-theme)))
  '(safe-local-variable-values (quote ((project-venv-name . "pikuli")))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
