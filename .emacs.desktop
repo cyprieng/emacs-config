@@ -2,74 +2,50 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Thu Apr  5 14:57:32 2018
+;; Created Fri Apr  6 11:51:23 2018
 ;; Desktop file format version 208
 ;; Emacs version 25.3.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23238 7484 904674 0) (desktop . "208") "octipas@Mac-mini-cyprien.local" nil nil ((((font-backend mac-ct) (fontsize . 0) (font . "-*-Fira Mono-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#bbc2cf") (background-color . "#282c34") (line-spacing) (left-fringe . 8) (right-fringe . 8) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . fullheight) (display-type . color) (background-mode . dark) (cursor-color . "#51afef") (environment) (frameset--id . "8590-265A-D0C1-775F") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable . t) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (display . "Mac-mini-cyprien.local") (explicit-name) (tool-bar-position . top) (user-size . t) (visibility . t) (height . 73) (width . 271) (left . 1920) (top . 22)) ((min-height . 4) (min-width . 50) (min-height-ignore . 4) (min-width-ignore . 10) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 56) (min-pixel-width . 350) (min-pixel-height-ignore . 56) (min-pixel-width-ignore . 70) (min-pixel-height-safe . 14) (min-pixel-width-safe . 28)) hc (pixel-width . 1913) (pixel-height . 1018) (total-width . 273) (total-height . 72) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 280) (pixel-height . 1018) (total-width . 40) (total-height . 72) (normal-height . 1.0) (normal-width . 0.14506011500261368) (buffer " *NeoTree*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated . t) (point . 1) (start . 1))) (leaf (last . t) (pixel-width . 1633) (pixel-height . 1018) (total-width . 233) (total-height . 72) (normal-height . 1.0) (normal-width . 0.8549398849973864) (buffer "Soap.php" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 69) (start . 1)))))])
+(setq desktop-saved-frameset [frameset 1 (23239 17179 344990 0) (desktop . "208") "octipas@Mac-mini-cyprien.local" nil nil ((((font-backend mac-ct) (fontsize . 0) (font . "-*-Fira Mono-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#bbc2cf") (background-color . "#282c34") (line-spacing) (left-fringe . 8) (right-fringe . 8) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . fullheight) (display-type . color) (background-mode . dark) (cursor-color . "#51afef") (environment) (frameset--id . "8590-265A-D0C1-775F") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable . t) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (display . "Mac-mini-cyprien.local") (explicit-name) (tool-bar-position . top) (user-size . t) (visibility . t) (height . 73) (width . 271) (left . 1920) (top . 22)) ((min-height . 4) (min-width . 50) (min-height-ignore . 4) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 56) (min-pixel-width . 350) (min-pixel-height-ignore . 56) (min-pixel-width-ignore . 56) (min-pixel-height-safe . 14) (min-pixel-width-safe . 28)) hc (pixel-width . 1913) (pixel-height . 1018) (total-width . 273) (total-height . 72) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 280) (pixel-height . 1018) (total-width . 40) (total-height . 72) (normal-height . 1.0) (normal-width . 0.14506011500261368) (buffer " *NeoTree*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated . t) (point . 1) (start . 1))) (leaf (last . t) (pixel-width . 1633) (pixel-height . 1018) (total-width . 233) (total-height . 72) (normal-height . 1.0) (normal-width . 0.8549398849973864) (buffer "*Warnings*" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 1) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 128) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("logincustomer" "initpayment" "validateorder" "config" "customers-l" "valoris" "validateo" "validateorder" "discount" "$sb" "config" "unlogstore" "unlogs" "home.ht" "template.css" "device"))
+(setq search-ring '("device" "ra" "filter" "template" "get" "product.js" "dee" "controller" "delivery-entrepot" "modal." "createcustomer" "createcut" "createc" "template" "mageno" "printer"))
 (setq regexp-search-ring '("g" "python" "python " "python" "pytho" "python" "pyt" "pytho" "line" "python" "pyth" "python" "set " "python" "p^ytho" "pytho"))
 (setq register-alist '((48 . "    tree = introspection.find('.//*[@objectName=\"TVProjectBrowser\"]')\n")))
 (setq file-name-history '("/Library/WebServer/Documents/Octipas-api/api/public/templates/intersport/wishlist-search-static.html.mustache" "/Library/WebServer/Documents/Octipas-api/api/app/Http/ClassesOctiapp/Webservices/Prestashop.php" "/Library/WebServer/Documents/prestashop/modules/octipas/WebserviceSpecificManagementOctipas.php~" "/Library/WebServer/Documents/prestashop/modules/octipas/octipasapi.php~" "/Library/WebServer/Documents/Octipas-api/api/app/Http/ClassesOctiapp/Getstockmanrequest/Getstockmanpendingrequests.php~" "/Library/WebServer/Documents/Octipas-api/api/app/Http/ClassesOctiapp/ToolsClasses/Basket/BasketLocal.php~" "/Library/WebServer/Documents/octipas_services/Octipas_services/app/Http/Controllers/BasketRules.php" "/Library/WebServer/Documents/Octipas-api/api/public/templates/demo/customer-oldbaskets-list.html.mustache" "/Library/WebServer/Documents/Octipas-api/api/public/templates/demo/template.css" "/Library/WebServer/Documents/Octipas-api/api/app/Http/ClassesOctiapp/ToolsClasses/Image.php~" "/Library/WebServer/Documents/test.org" "~/octipas/Crons/record_transaction_periodic_reports.py" "/Library/WebServer/Documents/Octipas-api/api/public/templates/madura/categories2.html.mustache" "/Library/WebServer/Documents/Octipas-api/api/public/templates/madura/categories-static.html.mustache" "d:/NOTBACKEDUP/Public/runTests.bat" "d:/Documents/test_pikuli/framework_tests/platform_and_base/dashboard_mode.sikuli/dashboard_mode.py" "d:/NOTBACKEDUP/Public/runTests.bat" "d:/Documents/test_pikuli/ocean/workstep_by_dataset.sikuli/" "workstep_by_dataset.py" "d:/Documents/test_pikuli/" "d:/NOTBACKEDUP/Public/runTests.bat"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
-  "/Users/octipas/Documents/Webserver/Octipas-api/api/app/Http/ClassesOctiapp/GeneralClasses/Soap.php"
-  "Soap.php"
+  "/Users/octipas/Documents/Webserver/Octipas-api/api/app/Http/ClassesOctiapp/Getcashregisterstats/Getcashregisterstats.php"
+  "Getcashregisterstats.php"
   'php-mode
   '(abbrev-mode helm-mode smartparens-mode linum-mode diff-hl-mode flycheck-mode auto-complete-mode yas-minor-mode projectile-mode)
-  69
-  '(682 nil)
+  1729
+  '(2413 nil)
   nil
   nil
   '((show-trailing-whitespace) (tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (fill-column . 70) (case-fold-search . t))
-  '((mark-ring (1587 1711 294 889 442 710 783 844 232 915 69))))
-
-(desktop-create-buffer 208
-  "/Users/octipas/Documents/Webserver/Octipas-api/api/app/Http/Controllers/MagentoSoapCached.php"
-  "MagentoSoapCached.php"
-  'php-mode
-  '(abbrev-mode helm-mode smartparens-mode linum-mode diff-hl-mode flycheck-mode auto-complete-mode yas-minor-mode projectile-mode)
-  1
-  '(173908 nil)
-  nil
-  nil
-  '((show-trailing-whitespace) (tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (fill-column . 70) (case-fold-search . t))
-  '((mark-ring (247621 48730 1 321207 180900 1147 181044 181086 181024 181044 180999))))
-
-(desktop-create-buffer 208
-  "/Users/octipas/Documents/Webserver/Octipas-api/api/app/Http/ClassesOctiapp/GeneralClasses/WebserviceMercure.php"
-  "WebserviceMercure.php"
-  'php-mode
-  '(abbrev-mode helm-mode smartparens-mode linum-mode diff-hl-mode flycheck-mode auto-complete-mode yas-minor-mode projectile-mode)
-  188
-  '(173 nil)
-  nil
-  nil
-  '((show-trailing-whitespace) (tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (fill-column . 70) (case-fold-search . t))
-  '((mark-ring (185 188))))
+  '((mark-ring (642 840 1539 1047 1541 3470 3131 640 2540 1849 1595 1679))))
 
 (desktop-create-buffer 208
   "/Users/octipas/Documents/Webserver/config.php"
   "config.php"
   'php-mode
   '(abbrev-mode helm-mode smartparens-mode linum-mode diff-hl-mode flycheck-mode auto-complete-mode yas-minor-mode projectile-mode)
-  95875
-  '(1 nil)
+  94613
+  '(83554 nil)
   nil
   nil
   '((show-trailing-whitespace) (tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (fill-column . 70) (case-fold-search . t))
-  '((mark-ring (95841 95875))))
+  '((mark-ring (85165 87732 87944 96020 67011 95534 1386 92257 85163 94613))))
 
 (desktop-create-buffer 208
   nil
   "*Desktop Treemacs Helper*"
   'treemacs-mode
-  '(helm-mode linum-mode yas-minor-mode projectile-mode)
+  '(helm-mode linum-mode projectile-mode)
   108
   '(1 nil)
   nil
@@ -85,7 +61,7 @@
   1
   '(1 nil)
   t
-  '(:history ((:url "https://duckduckgo.com/html/?q=" :title "")))
+  '(:history ((:title "" :url "https://duckduckgo.com/html/?q=")))
   '((truncate-lines . t) (eww-history-position . 0))
   '((mark-ring (1))))
 

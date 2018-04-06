@@ -190,6 +190,7 @@
 (require 'smartparens-config)
 (add-hook 'python-mode-hook #'smartparens-mode)
 (add-hook 'php-mode-hook #'smartparens-mode)
+(show-paren-mode 1)
 
 ;; ORIGAMI
 (require 'origami)
@@ -292,9 +293,6 @@
   scroll-preserve-screen-position 1)
 (setq mouse-wheel-follow-mouse 't) ;; scroll window under mouse
 (setq scroll-step 1) ;; keyboard scroll one line at a time
-
-;; SCREEN
-(elscreen-start)
 
 ;; ACE WINDOW
 (global-set-key (kbd "M-a") 'ace-window)
