@@ -169,6 +169,10 @@
 (global-set-key (kbd "C-c v") 'pbpaste)
 (global-set-key (kbd "C-c x") 'pbcut)
 
+;; MOVEMENT
+(global-set-key (kbd "M-<down>") 'forward-paragraph)
+(global-set-key (kbd "M-<up>") 'backward-paragraph)
+
 ;; OPEN ESHELL
 (eshell)
 (setq eshell-prompt-function
