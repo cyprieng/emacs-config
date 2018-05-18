@@ -205,7 +205,9 @@
 (global-set-key (kbd "C-v") 'quoted-insert)
 
 ;; GUESS INDENT
-(dtrt-indent-mode t)
+(setq-default indent-tabs-mode nil)
+(require 'dtrt-indent)
+(add-hook 'prog-mode-hook #'dtrt-indent-mode)
 
 ;; TABBAR
 (require 'tabbar)
