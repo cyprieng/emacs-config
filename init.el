@@ -310,6 +310,13 @@
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this-word)
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this-word)
 
+;; RELOAD FILE SHORTCUT
+(defun revert-buffer-no-confirm ()
+    "Revert buffer without confirmation."
+    (interactive)
+    (revert-buffer :ignore-auto :noconfirm))
+(global-set-key (kbd "C-c C-r") 'revert-buffer-no-confirm)
+
 ;; KILL SHELL SHORTCUT
 (global-set-key (kbd "C-c C-q") 'comint-quit-subjob)
 
